@@ -1,0 +1,22 @@
+button {
+    &[role="switch"] {
+        &[aria-checked="true"] {
+            background-color: white;
+        }
+    }
+}
+
+.main-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    li {
+        width: 20%;
+        padding: 16px;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+    }
+}
